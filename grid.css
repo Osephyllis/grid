@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(127, 128, 129);
+}
+
+main{
+    padding: 2cm;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    " a b c"
+     ;
+    grid-gap: 5px;
+  ;
+ 
+
+   
+}
+
+main div{
+    padding: 2cm;
+    border: 2cm;
+    border-radius: 10px;
+    height: 400px;
+    width:80%
+   
+}
+.itema{
+    background-color: rgb(207, 137, 7);
+    grid-area: a;
+
+   
+}
+.itemb{
+    background-color: rgb(23, 168, 187);
+    grid-area: b;
+   
+}
+.itemc{
+    background-color: rgb(6, 73, 82);
+    grid-area: c;
+    }
